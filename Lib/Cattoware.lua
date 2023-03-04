@@ -1,4 +1,5 @@
 -- insert troll face, memcorruptv2
+-- [ HUGE THX TO @bloodball FOR BACKING UP THIS SEXY LIBRARY <33 ] MUCH LOVE FROM FIROX
 local library = { 
 	flags = { }, 
 	items = { } 
@@ -26,7 +27,7 @@ library.theme = {
     tilesize = 90,
     cursor = true,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
-    backgroundcolor = Color3.fromRGB(255,105, 180),
+    backgroundcolor = Color3.fromRGB(20, 20, 20),
     tabstextcolor = Color3.fromRGB(240, 240, 240),
     bordercolor = Color3.fromRGB(255,105,180),
     accentcolor = Color3.fromRGB(255,105,180),
