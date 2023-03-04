@@ -27,11 +27,3 @@ local BlatantAntis = AntiTab:CreateSector("Blatant-AntiAims", "right")
 -- Ui tab --
 local ConfigSystem = UserTab:CreateSector("Configuration", "left")
 local UserInterface = UserTab:CreateSector("User-Interface", "right")
-
-testSection:AddToggle("Toggle", false, function(first)
-    print("ejejejejejeje")
-end)
-
-testSection:AddButton("Button", function(IhateGayPeople)
-    print("button")
-end)
