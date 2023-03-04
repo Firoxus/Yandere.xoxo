@@ -74,5 +74,5 @@ wait(0.3)
 Frame.Transparency = 0.900
 wait(0.3)
 Frame.Transparency = 1
-Frame:Destroy()
+Frame.Visible = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/Yandere.xoxo/main/yandere.lua"))()
