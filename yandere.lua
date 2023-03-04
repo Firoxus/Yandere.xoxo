@@ -1,7 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/Yandere.xoxo/main/Lib/Cattoware.lua"))()
-local game = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
-local user = game.Players.LocalPlayer.DisplayName
-local Window = Library:CreateWindow("Yandere.xoxo | " .. user .. " | " .. game, Vector2.new(420, 420), Enum.KeyCode.RightControl) 
+local Window = Library:CreateWindow("Yandere.xoxo | " ..game.Players.LocalPlayer.DisplayName .. " | " .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, Vector2.new(420, 420), Enum.KeyCode.RightControl) 
 
 -- Tab system?? --
 local AimingTab = Window:CreateTab("Aiming") 
@@ -29,3 +27,11 @@ local BlatantAntis = AntiTab:CreateSector("Blatant-AntiAims", "right")
 -- Ui tab --
 local ConfigSystem = UserTab:CreateSector("Configuration", "left")
 local UserInterface = UserTab:CreateSector("User-Interface", "right")
+
+testSection:AddToggle("Toggle", false, function(first)
+    print("ejejejejejeje")
+end)
+
+testSection:AddButton("Button", function(IhateGayPeople)
+    print("button")
+end)
